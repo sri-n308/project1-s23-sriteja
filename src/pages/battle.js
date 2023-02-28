@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 const fetcher = async (url) => {
     const res = await axios.post(url, {
-        pokemon1: "pikachu",
-        pokemon2: "lucario"
+        pokemon1: "lucario",
+        pokemon2: "pikachu"
     })
     return res.data
 }
